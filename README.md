@@ -1,3 +1,6 @@
+# Important links
+https://claude.ai/artifact/D6ckrUruidjFdf3y871NgU#primer
+
 # Prior Authorization Copilot: Business Overview
 
 > **Status:** Draft v0.1. This is a business repo. It holds the business rules and project overview, and no code.
