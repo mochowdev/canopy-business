@@ -1,5 +1,5 @@
 # Important links
-https://claude.ai/artifact/D6ckrUruidjFdf3y871NgU#primer
+https://claude.ai/artifact/EQcNFAVjLf1fHTb4yat4Do
 
 # Prior Authorization Copilot: Business Overview
 
