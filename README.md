@@ -181,6 +181,8 @@ The tier is a routing decision. It is not an outcome.
 
 This is the deterministic core that everything else depends on. It is plain arithmetic, tables and APIs, with exact values that can be asserted in tests.
 
+**Onboarding:** the first week is an aggressive five-day sprint, built to learn the domain by contributing. See the [Onboarding Sprint Board](https://claude.ai/artifact/D6ckrUruidjFdf3y871NgU) (ten tickets, a daily pace table and a domain primer).
+
 ### Scope
 
 1. **Evidence pipeline.** Facts from different sources are normalized, deduplicated and combined (trust, recency decay, corroboration, conflict detection).
@@ -253,6 +255,10 @@ The scoring engine does not care whether a fact came from a lab feed, a form or 
 - A weighted sum can let strong sub-scores hide a failing one inside a factor.
 - Real deployment needs legal and privacy review (HIPAA and related rules).
 
-## 11. Origin
+## 11. Cases
+
+Worked scenarios that estimate time and money saved, built from public data and labeled assumptions, are in [`cases/`](cases/README.md). Start with the evidence registry and Case 001.
+
+## 12. Origin
 
 The scoring approach (weighted factors, source trust, recency decay, shrinkage toward a prior, tier rating, point-in-time replay) is adapted from the Fighter Market Intelligence valuation model.
