@@ -7,6 +7,7 @@ Navigation index. Each topic folder holds short files with one diagram each. A p
 
 - Start at the map, open a topic folder, follow the breadcrumbs at the top of each file.
 - Grey in the map means not covered yet.
+- Test line, added only to check the diff view. Safe to delete.
 
 ## Map
 
