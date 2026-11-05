@@ -1,3 +1,4 @@
+<!-- Review note: physician office time lost to prior auth. Value accrues to providers, not the insurer's cost line. Draft. -->
 # Case 002: Physician office time lost to prior authorization
 
 **Status:** Draft (all external figures are grade B, see [registry](registry.md))

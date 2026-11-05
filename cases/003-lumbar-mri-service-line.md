@@ -1,3 +1,4 @@
+<!-- Review note: stub. Blocked on plan-level data; no numbers filled in on purpose. -->
 # Case 003: Lumbar spine MRI (CPT 72148), one service line
 
 **Status:** Blocked on data

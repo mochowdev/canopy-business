@@ -1,3 +1,4 @@
+<!-- Review note: one-page visual condensation of the README and cases, with a reviewer checklist. Derived from the other files; edit those first. -->
 # Prior Authorization Copilot: Review Summary
 
 One page, pictures first. Details live in [`README.md`](README.md) and [`cases/`](cases/README.md).

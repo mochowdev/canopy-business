@@ -1,3 +1,4 @@
+<!-- Review note: rules for writing a case (IDs, evidence grades, three scenarios, show the arithmetic) and the case index. -->
 # Cases
 
 Worked scenarios that estimate how much time and money the platform could save, using public data where it exists and clearly labeled assumptions where it does not.

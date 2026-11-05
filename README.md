@@ -1,3 +1,4 @@
+<!-- Review note: business overview, scoring rules, MVP scope and the scoring-platform workstream (section 9). Placeholders throughout; S worked example should read 73.4375. -->
 # Important links
 https://claude.ai/artifact/EQcNFAVjLf1fHTb4yat4Do
 

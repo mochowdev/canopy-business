@@ -1,3 +1,4 @@
+<!-- Review note: blank format to copy for each new case. No content of its own. -->
 # Case NNN: <short name>
 
 **Status:** Draft | Reviewed | Blocked on data

@@ -1,3 +1,4 @@
+<!-- Review note: Medicare Advantage industry-ceiling savings. Draft; sensitive to A-01 and A-03, and not specific to one company. -->
 # Case 001: Reviewer time across Medicare Advantage prior authorization
 
 **Status:** Draft (all external figures are grade B, see [registry](registry.md))

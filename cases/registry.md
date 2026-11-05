@@ -1,3 +1,4 @@
+<!-- Review note: every sourced fact (S-xx) and assumption (A-xx) used by the cases. External figures are grade B, unverified against primary sources. -->
 # Evidence and Assumption Registry
 
 Every number used in a case is listed here first. Last reviewed: 2026-11-04.

@@ -1,3 +1,4 @@
+<!-- Review note: navigation index for the mental model. Holds no content claims; topics are added only after they are confirmed as understood. -->
 # Mental Model: Prior Authorization Copilot (business side)
 
 Navigation index. Each topic folder holds short files with one diagram each. A point appears here only after it has been confirmed as understood.
