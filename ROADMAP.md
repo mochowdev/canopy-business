@@ -1,6 +1,23 @@
 <!-- Review note: the project's ticket list, generated and ordered low to high complexity. Most important file in the repo. Edit only via roadmap-only commits on develop, then merge into open story branches. -->
 # Project Canopy: Roadmap
 
+## Contents
+
+<!-- contents:start -->
+- [1. How we work](#1-how-we-work)
+  - [Roadmap sync (this file is the same on every branch)](#roadmap-sync-this-file-is-the-same-on-every-branch)
+  - [Status rules](#status-rules)
+- [2. Ladder (low to high complexity)](#2-ladder-low-to-high-complexity)
+- [3. Dependency map](#3-dependency-map)
+- [4. Tickets](#4-tickets)
+  - [Extra small (1 point)](#extra-small-1-point)
+  - [Small (2 points)](#small-2-points)
+  - [Medium (3 points)](#medium-3-points)
+  - [Large (5 points)](#large-5-points)
+  - [Extra large (8 to 13 points)](#extra-large-8-to-13-points)
+- [5. Status board](#5-status-board)
+<!-- contents:end -->
+
 Jira-style tickets to continue the business side of Project Canopy, ordered **low to high complexity**. Every ticket is one story, and every story gets its own branch.
 
 [Overview](README.md) · [Cases](cases/README.md) · [Review summary](REVIEW_SUMMARY.md) · [Mental model](mental-model/README.md)
