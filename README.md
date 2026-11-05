@@ -3,6 +3,8 @@ https://claude.ai/artifact/EQcNFAVjLf1fHTb4yat4Do
 
 # Prior Authorization Copilot: Business Overview
 
+> **Branch note:** This is the business-docs working branch. Compare it against `develop`, which is intentionally empty.
+>
 > **Status:** Draft v0.1. This is a business repo. It holds the business rules and project overview, and no code.
 > All weights, thresholds and cut-offs below are **starting placeholders** until calibrated against reviewer decisions.
 
