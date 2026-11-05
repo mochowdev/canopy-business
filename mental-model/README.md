@@ -11,6 +11,8 @@ Navigation index. Each topic folder holds short files with one diagram each. A p
 
 ## Map
 
+Topic: **Project Canopy, business side.** Folders are created under `mental-model/canopy-business/` only when a point is confirmed.
+
 ```mermaid
 flowchart LR
   P["01 Problem"] --> S["02 Solution"] --> U["03 Users and access"] --> F["04 Safety principles"] --> C["05 Scoring"] --> V["06 Value"] --> D["07 Delivery"]

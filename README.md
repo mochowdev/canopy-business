@@ -2,7 +2,16 @@
 # Important links
 https://claude.ai/artifact/EQcNFAVjLf1fHTb4yat4Do
 
-# Prior Authorization Copilot: Business Overview
+# Project Canopy: Business Overview
+
+Project Canopy is the working name. The product is the **Prior Authorization Copilot**. This repo (`canopy-business`) holds the business side; the code lives in a separate repo.
+
+| Where to go | What it holds |
+|---|---|
+| [`ROADMAP.md`](ROADMAP.md) | The ticket list for continuing the project, ordered low to high complexity |
+| [`cases/`](cases/README.md) | Worked savings scenarios and the evidence registry |
+| [`REVIEW_SUMMARY.md`](REVIEW_SUMMARY.md) | One-page visual summary |
+| [`mental-model/`](mental-model/README.md) | Condensed visuals of what has been understood so far |
 
 > **Status:** Draft v0.1. This is a business repo. It holds the business rules and project overview, and no code.
 > All weights, thresholds and cut-offs below are **starting placeholders** until calibrated against reviewer decisions.
