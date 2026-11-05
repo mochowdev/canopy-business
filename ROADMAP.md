@@ -14,6 +14,7 @@ Jira-style tickets to continue the business side of Project Canopy, ordered **lo
 | Dependencies | If a ticket depends on another, I flag it **before** its branch is created, and we decide together whether to wait or stack. |
 | Complexity | XS 1 point, S 2, M 3, L 5, XL 8 to 13. Points reflect effort and uncertainty, not calendar time. |
 | Evidence | Any number in a ticket's output goes in [`cases/registry.md`](cases/registry.md) first, with a grade. |
+| Status | Every ticket is **Pending**, **In progress**, **Incomplete** or **Completed**. The board in section 5 is the source of truth. |
 
 ### Roadmap sync (this file is the same on every branch)
 
@@ -25,6 +26,32 @@ Git cannot share one file across branches on its own, so I keep it in step like 
 4. Marking a ticket done is also a roadmap-only commit on `develop`.
 
 Because only `develop` edits it, the merges should never conflict. Each of my replies states the sync status.
+
+### Status rules
+
+```mermaid
+stateDiagram-v2
+  state "In progress" as InProgress
+  [*] --> Pending
+  Pending --> InProgress: branch created
+  InProgress --> Incomplete: paused or blocked
+  Incomplete --> InProgress: resumed
+  InProgress --> Completed: merged into develop
+  Completed --> [*]
+```
+
+| Status | Meaning | What changes the board |
+|---|---|---|
+| Pending | No branch yet. A ticket whose dependency is unfinished is still Pending, with a note. | Starting state for every ticket |
+| In progress | Branch exists and work is active | Branch created, or work resumed |
+| Incomplete | Branch exists but work stopped before done. The reason is recorded: waiting on a dependency, a decision, data, or your review. | You or I pause it. I also flag any branch with no commits for a week, and you decide. |
+| Completed | Merged into `develop`, with its story file archived | Merge to `develop` |
+
+- Each status change is a **roadmap-only commit on `develop`**, merged into every open story branch right after, as in the sync rules above.
+- A change to "In progress" is recorded when the branch is created, and a change to "Completed" right after the merge.
+- Pushing any of these commits to GitHub still needs your consent. Until you approve, status updates sit as local commits, and I tell you which are waiting.
+- I read branch state from git (branches that exist, merged into `develop`, last commit date). "Incomplete" is a judgment call, so it is only set when you or I say so.
+- If a branch's own `STORY.md` shows a different status, the board here wins.
 
 ## 2. Ladder (low to high complexity)
 
@@ -178,10 +205,29 @@ Tickets not in the diagram have no dependencies: CAN-1, 2, 3, 6 and 10. Tickets 
 - Done when: every figure traces to a graded registry row and a reviewer outside the project has read it.
 - Depends on: CAN-12, CAN-17, CAN-18 and CAN-19.
 
-## 5. Status
+## 5. Status board
 
-| Status | Tickets |
-|---|---|
-| To do | CAN-1 to CAN-20 |
-| In progress | none |
-| Done | none |
+Last updated: 2026-11-05 · **Pending 20** · In progress 0 · Incomplete 0 · Completed 0
+
+| Key | Ticket | Status | Branch | Note |
+|---|---|---|---|---|
+| CAN-1 | Remove the diff-check test line | Pending | none | |
+| CAN-2 | Fix the worked-example value | Pending | none | |
+| CAN-3 | Decide on the old remote branches | Pending | none | needs your approval |
+| CAN-4 | Verify the KFF figures | Pending | none | needs network access |
+| CAN-5 | Verify the AMA, CAQH and BLS figures | Pending | none | needs network access |
+| CAN-6 | Plain-language glossary | Pending | none | |
+| CAN-7 | Rewrite Case 001 | Pending | none | waiting on CAN-4, CAN-5 |
+| CAN-8 | Nurse workflow appendix | Pending | none | |
+| CAN-9 | Pended-case and peer-to-peer walkthroughs | Pending | none | waiting on CAN-8 |
+| CAN-10 | Alternatives and competitor landscape | Pending | none | |
+| CAN-11 | Risk register | Pending | none | |
+| CAN-12 | Stakeholder map and adoption plan | Pending | none | |
+| CAN-13 | Regulatory brief | Pending | none | needs network access |
+| CAN-14 | Success metrics and measurement plan | Pending | none | |
+| CAN-15 | Reviewer time-study protocol | Pending | none | waiting on CAN-8 |
+| CAN-16 | Case 003 with real plan data | Pending | none | waiting on CAN-15, plan data |
+| CAN-17 | Platform cost model and net business case | Pending | none | waiting on CAN-7 |
+| CAN-18 | Fairness and governance framework | Pending | none | waiting on CAN-13, CAN-14 |
+| CAN-19 | Shadow-mode pilot design | Pending | none | waiting on CAN-11, 13, 14, 15 |
+| CAN-20 | Executive business case pack | Pending | none | waiting on CAN-12, 17, 18, 19 |
