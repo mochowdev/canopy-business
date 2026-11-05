@@ -1,6 +1,21 @@
 <!-- Review note: Medicare Advantage industry-ceiling savings. Draft; sensitive to A-01 and A-03, and not specific to one company. -->
 # Case 001: Reviewer time across Medicare Advantage prior authorization
 
+## Contents
+
+<!-- contents:start -->
+- [1. The situation (plain language)](#1-the-situation-plain-language)
+- [2. What the real numbers say](#2-what-the-real-numbers-say)
+- [3. What the platform would change](#3-what-the-platform-would-change)
+- [4. The arithmetic](#4-the-arithmetic)
+- [5. Results](#5-results)
+- [6. Why these results](#6-why-these-results)
+- [7. What is left out](#7-what-is-left-out)
+- [8. What would prove this wrong](#8-what-would-prove-this-wrong)
+- [9. Side observation: appeals (not included in the numbers above)](#9-side-observation-appeals-not-included-in-the-numbers-above)
+- [10. Next data to pull](#10-next-data-to-pull)
+<!-- contents:end -->
+
 **Status:** Draft (all external figures are grade B, see [registry](registry.md))
 **Last updated:** 2026-11-04
 **Scope:** Industry-wide ceiling for all Medicare Advantage insurers. This is **not** one company's number.

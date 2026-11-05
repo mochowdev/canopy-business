@@ -1,6 +1,18 @@
 <!-- Review note: one-page visual condensation of the README and cases, with a reviewer checklist. Derived from the other files; edit those first. -->
 # Prior Authorization Copilot: Review Summary
 
+## Contents
+
+<!-- contents:start -->
+- [1. The idea in one picture](#1-the-idea-in-one-picture)
+- [2. Who uses it](#2-who-uses-it)
+- [3. How a score is built](#3-how-a-score-is-built)
+- [4. What a nurse does today, and where time goes](#4-what-a-nurse-does-today-and-where-time-goes)
+- [5. What it could be worth](#5-what-it-could-be-worth)
+- [6. How it gets built](#6-how-it-gets-built)
+- [7. For reviewers: decisions and checks](#7-for-reviewers-decisions-and-checks)
+<!-- contents:end -->
+
 One page, pictures first. Details live in [`README.md`](README.md) and [`cases/`](cases/README.md).
 **Status:** draft for review. All weights, cut-offs and savings figures are placeholders, and external figures are unverified (grade B).
 

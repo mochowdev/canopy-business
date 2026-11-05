@@ -4,6 +4,37 @@ https://claude.ai/artifact/EQcNFAVjLf1fHTb4yat4Do
 
 # Project Canopy: Business Overview
 
+## Contents
+
+<!-- contents:start -->
+- [1. The problem](#1-the-problem)
+- [2. The idea](#2-the-idea)
+- [3. Users](#3-users)
+- [4. Principles (non-negotiable)](#4-principles-non-negotiable)
+- [5. How scoring works](#5-how-scoring-works)
+  - [Pipeline](#pipeline)
+  - [Factors and weights (sum to 1)](#factors-and-weights-sum-to-1)
+  - [Evidence confidence](#evidence-confidence)
+  - [Uncertainty band and tiers](#uncertainty-band-and-tiers)
+- [6. Business rules](#6-business-rules)
+  - [Hard gates](#hard-gates)
+  - [Routing tiers](#routing-tiers)
+  - [Initial coverage policies (MVP)](#initial-coverage-policies-mvp)
+- [7. MVP](#7-mvp)
+- [8. Phasing](#8-phasing)
+- [9. Workstream: Scoring and Evidence Platform](#9-workstream-scoring-and-evidence-platform)
+  - [Scope](#scope)
+  - [Data model (initial)](#data-model-initial)
+  - [Planned endpoints](#planned-endpoints)
+  - [Sprint plan (two weeks each)](#sprint-plan-two-weeks-each)
+  - [Acceptance criteria](#acceptance-criteria)
+  - [Handoff boundaries](#handoff-boundaries)
+  - [Risks](#risks)
+- [10. Known weaknesses](#10-known-weaknesses)
+- [11. Cases](#11-cases)
+- [12. Origin](#12-origin)
+<!-- contents:end -->
+
 Project Canopy is the working name. The product is the **Prior Authorization Copilot**. This repo (`canopy-business`) holds the business side; the code lives in a separate repo.
 
 | Where to go | What it holds |

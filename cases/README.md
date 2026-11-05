@@ -1,6 +1,16 @@
 <!-- Review note: rules for writing a case (IDs, evidence grades, three scenarios, show the arithmetic) and the case index. -->
 # Cases
 
+## Contents
+
+<!-- contents:start -->
+- [Rules for every case](#rules-for-every-case)
+- [Status of evidence](#status-of-evidence)
+- [Index](#index)
+- [Adding a case](#adding-a-case)
+- [What these cases are not](#what-these-cases-are-not)
+<!-- contents:end -->
+
 Worked scenarios that estimate how much time and money the platform could save, using public data where it exists and clearly labeled assumptions where it does not.
 
 Each case answers four questions in plain language:

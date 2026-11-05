@@ -1,6 +1,20 @@
 <!-- Review note: physician office time lost to prior auth. Value accrues to providers, not the insurer's cost line. Draft. -->
 # Case 002: Physician office time lost to prior authorization
 
+## Contents
+
+<!-- contents:start -->
+- [1. The situation (plain language)](#1-the-situation-plain-language)
+- [2. What the real numbers say](#2-what-the-real-numbers-say)
+- [3. What the platform would change](#3-what-the-platform-would-change)
+- [4. The arithmetic](#4-the-arithmetic)
+- [5. Results (per physician per year)](#5-results-per-physician-per-year)
+- [6. Why these results](#6-why-these-results)
+- [7. What is left out](#7-what-is-left-out)
+- [8. What would prove this wrong](#8-what-would-prove-this-wrong)
+- [9. Next data to pull](#9-next-data-to-pull)
+<!-- contents:end -->
+
 **Status:** Draft (all external figures are grade B, see [registry](registry.md))
 **Last updated:** 2026-11-04
 **Scope:** One physician and one practice. **This value accrues to providers, not to the insurer's own cost line.** It matters for adoption and provider relations, not for the insurer's savings.

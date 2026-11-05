@@ -1,6 +1,17 @@
 <!-- Review note: proposed rule for story branches and their root-level STORY.md. Draft, awaiting approval. Not yet reflected in ROADMAP.md. -->
 # Story Branches and STORY.md
 
+## Contents
+
+<!-- contents:start -->
+- [1. Lifecycle](#1-lifecycle)
+- [2. What each branch looks like](#2-what-each-branch-looks-like)
+- [3. Rules](#3-rules)
+- [4. Dependent stories](#4-dependent-stories)
+- [5. STORY.md template](#5-storymd-template)
+- [6. Decisions needed](#6-decisions-needed)
+<!-- contents:end -->
+
 Proposed working rule. Every story gets its own branch, and each branch shows its own story overview at the root when checked out.
 
 ## 1. Lifecycle

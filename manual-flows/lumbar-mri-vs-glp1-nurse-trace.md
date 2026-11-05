@@ -1,6 +1,33 @@
 <!-- Review note: step-by-step trace of a nurse reviewer handling a lumbar MRI request and a GLP-1 request, with seconds per action. Portal names, data and timings are all invented for illustration (grade C). To be replaced by observed times from the time study (CAN-15). -->
 # Manual Flow: Lumbar MRI vs GLP-1 (nurse reviewer)
 
+## Contents
+
+<!-- contents:start -->
+- [0. Read this first](#0-read-this-first)
+- [1. Overview in pictures](#1-overview-in-pictures)
+- [2. Case A: Lumbar MRI (CPT 72148)](#2-case-a-lumbar-mri-cpt-72148)
+  - [Step 1: Open case and confirm coverage (120 s)](#step-1-open-case-and-confirm-coverage-120-s)
+  - [Step 2: Read the documents (480 s)](#step-2-read-the-documents-480-s)
+  - [Step 3: Check the criteria (240 s)](#step-3-check-the-criteria-240-s)
+  - [Step 4: Write the rationale (180 s)](#step-4-write-the-rationale-180-s)
+  - [Step 5: Approve and send (60 s)](#step-5-approve-and-send-60-s)
+  - [Case A totals: 1,080 s (18 min, $17.55 at $0.975 per minute)](#case-a-totals-1080-s-18-min-1755-at-0975-per-minute)
+- [3. Case B: GLP-1 for weight management](#3-case-b-glp-1-for-weight-management)
+  - [Step 1: Open case and identify the benefit (180 s)](#step-1-open-case-and-identify-the-benefit-180-s)
+  - [Step 2: Classify the request and select criteria (180 s)](#step-2-classify-the-request-and-select-criteria-180-s)
+  - [Step 3: Read the chart documents (840 s)](#step-3-read-the-chart-documents-840-s)
+  - [Step 4: Check the criteria (360 s)](#step-4-check-the-criteria-360-s)
+  - [Step 5: Set the approval terms (300 s)](#step-5-set-the-approval-terms-300-s)
+  - [Step 6: Write the rationale (300 s)](#step-6-write-the-rationale-300-s)
+  - [Step 7: Submit (120 s)](#step-7-submit-120-s)
+  - [Case B totals: 2,280 s (38 min, $37.05 at $0.975 per minute)](#case-b-totals-2280-s-38-min-3705-at-0975-per-minute)
+- [4. Side by side](#4-side-by-side)
+- [5. What the time tells us](#5-what-the-time-tells-us)
+- [6. Link to the business case](#6-link-to-the-business-case)
+- [7. Caveats](#7-caveats)
+<!-- contents:end -->
+
 How a nurse handles two prior-authorization requests today, click by click, and why each step takes the time it does.
 
 Related: [Case 001](../cases/001-medicare-advantage-reviewer-time.md) · [Evidence registry](../cases/registry.md) · [Roadmap](../ROADMAP.md) (CAN-8 nurse workflow, CAN-15 time study)

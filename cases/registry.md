@@ -1,6 +1,16 @@
 <!-- Review note: every sourced fact (S-xx) and assumption (A-xx) used by the cases. External figures are grade B, unverified against primary sources. -->
 # Evidence and Assumption Registry
 
+## Contents
+
+<!-- contents:start -->
+- [Sourced facts](#sourced-facts)
+- [Our assumptions (grade C)](#our-assumptions-grade-c)
+  - [Insurer side (Case 001)](#insurer-side-case-001)
+  - [Provider side (Case 002)](#provider-side-case-002)
+- [Changelog](#changelog)
+<!-- contents:end -->
+
 Every number used in a case is listed here first. Last reviewed: 2026-11-04.
 
 Grades: **A** = primary source opened and read. **B** = credible secondary report, primary not opened. **C** = our assumption.

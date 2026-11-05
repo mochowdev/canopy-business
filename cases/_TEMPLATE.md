@@ -1,6 +1,20 @@
 <!-- Review note: blank format to copy for each new case. No content of its own. -->
 # Case NNN: <short name>
 
+## Contents
+
+<!-- contents:start -->
+- [1. The situation (plain language)](#1-the-situation-plain-language)
+- [2. What the real numbers say](#2-what-the-real-numbers-say)
+- [3. What the platform would change](#3-what-the-platform-would-change)
+- [4. The arithmetic](#4-the-arithmetic)
+- [5. Results](#5-results)
+- [6. Why these results](#6-why-these-results)
+- [7. What is left out](#7-what-is-left-out)
+- [8. What would prove this wrong](#8-what-would-prove-this-wrong)
+- [9. Next data to pull](#9-next-data-to-pull)
+<!-- contents:end -->
+
 **Status:** Draft | Reviewed | Blocked on data
 **Last updated:** YYYY-MM-DD
 **Owner:** <name>

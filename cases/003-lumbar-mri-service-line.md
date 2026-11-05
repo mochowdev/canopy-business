@@ -1,6 +1,16 @@
 <!-- Review note: stub. Blocked on plan-level data; no numbers filled in on purpose. -->
 # Case 003: Lumbar spine MRI (CPT 72148), one service line
 
+## Contents
+
+<!-- contents:start -->
+- [1. The situation (plain language)](#1-the-situation-plain-language)
+- [2. What we need before this case can be written](#2-what-we-need-before-this-case-can-be-written)
+- [3. The calculation layout (ready to fill)](#3-the-calculation-layout-ready-to-fill)
+- [4. What would make this case convincing](#4-what-would-make-this-case-convincing)
+- [5. Next steps](#5-next-steps)
+<!-- contents:end -->
+
 **Status:** Blocked on data
 **Last updated:** 2026-11-04
 **Scope:** One service line, sized with plan-level volumes once we have them.
