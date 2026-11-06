@@ -1,4 +1,4 @@
-<!-- Review note: step-by-step trace of a nurse reviewer handling a lumbar MRI request and a GLP-1 request, with seconds per action. Portal names, data and timings are all invented for illustration (grade C). To be replaced by observed times from the time study (CAN-15). -->
+<!-- Review note: step-by-step trace of a nurse reviewer handling a lumbar MRI request and a GLP-1 request, with seconds per action. Case A now includes a live case (left erector spinae strain with new L5 radiculopathy) showing what the nurse double-checks and enters at each step. Portal names, patient data and timings are all invented for illustration (grade C). To be replaced by observed times from the time study (CAN-15). -->
 # Manual Flow: Lumbar MRI vs GLP-1 (nurse reviewer)
 
 ## Contents
@@ -7,12 +7,14 @@
 - [0. Read this first](#0-read-this-first)
 - [1. Overview in pictures](#1-overview-in-pictures)
 - [2. Case A: Lumbar MRI (CPT 72148)](#2-case-a-lumbar-mri-cpt-72148)
+  - [The live case at a glance](#the-live-case-at-a-glance)
   - [Step 1: Open case and confirm coverage (120 s)](#step-1-open-case-and-confirm-coverage-120-s)
   - [Step 2: Read the documents (480 s)](#step-2-read-the-documents-480-s)
   - [Step 3: Check the criteria (240 s)](#step-3-check-the-criteria-240-s)
   - [Step 4: Write the rationale (180 s)](#step-4-write-the-rationale-180-s)
   - [Step 5: Approve and send (60 s)](#step-5-approve-and-send-60-s)
   - [Case A totals: 1,080 s (18 min, $17.55 at $0.975 per minute)](#case-a-totals-1080-s-18-min-1755-at-0975-per-minute)
+  - [What the muscle injury changes, and what-ifs](#what-the-muscle-injury-changes-and-what-ifs)
 - [3. Case B: GLP-1 for weight management](#3-case-b-glp-1-for-weight-management)
   - [Step 1: Open case and identify the benefit (180 s)](#step-1-open-case-and-identify-the-benefit-180-s)
   - [Step 2: Classify the request and select criteria (180 s)](#step-2-classify-the-request-and-select-criteria-180-s)
@@ -37,6 +39,7 @@ Related: [Case 001](../cases/001-medicare-advantage-reviewer-time.md) · [Eviden
 - **Everything here is invented to show the mechanics.** The portal names, the patient data and the seconds are illustrative. Real organizations use their own systems or licensed criteria products such as MCG or InterQual.
 - The nurse is already logged into her main work tool. Opening a second system sometimes means a single sign-on prompt, which is included in the times.
 - A time study (CAN-15) would replace the seconds with observed values.
+- Case A follows one live case, a weightlifter with a low-back muscle strain and new nerve symptoms. Its panels show what the nurse double-checks and enters. The patient, dates, codes and system entries are invented. The codes follow standard coding (CPT 72148, 72100, 97110, 97140; ICD-10 S39.012D, M54.16), but a coder should confirm them before any real use.
 
 **Row types**
 
@@ -75,7 +78,24 @@ Shaded step = the heaviest step in each case.
 
 ## 2. Case A: Lumbar MRI (CPT 72148)
 
-**Invented case:** member M-48213, 52, male. Orthopedist requests a lumbar MRI. Standard urgency, due in 6 days. The packet is 6 pages: a referral form, a 3-page typed office note, and a 2-page faxed physical therapy summary with a handwritten discharge note.
+**Live case (invented):** member M-48213, 41, male, a recreational weightlifter. On 2026-08-22 he strained the muscles of the left low back (the erector spinae at L4-L5) on a heavy deadlift and felt a pop. After 10 weeks of conservative care, new left leg numbness and mild big-toe weakness appeared. His orthopedist (sports medicine) requests a lumbar MRI. Standard urgency, received 2026-11-05, due 2026-11-12. The packet is 6 pages: a referral form, a 3-page typed office note from 2026-11-04, and a 2-page faxed physical therapy summary with a handwritten discharge note.
+
+Each step below keeps the generic seconds table, then adds a **Live case** panel: what this patient's paperwork contains, what the nurse double-checks, and what she enters. The seconds do not change.
+
+### The live case at a glance
+
+| Date | Event |
+|---|---|
+| 2026-08-22 | Deadlift injury. Sharp pain in the left low back and a pop. |
+| 2026-08-29 | Naproxen 500 mg twice daily prescribed for 3 weeks, then as needed. |
+| 2026-09-02 | Urgent care lumbar X-ray (CPT 72100). Normal. |
+| 2026-09-08 | Physical therapy starts. |
+| 2026-10-14 | New numbness down the left outer calf to the top of the foot. |
+| 2026-11-03 | PT discharge after 14 visits. Symptoms persist. |
+| 2026-11-04 | Orthopedic visit. Neuro findings documented, MRI ordered. |
+| 2026-11-05 | Request received. |
+| 2026-11-06 | Nurse review and decision (6 days before the deadline). |
+| 2026-11-12 | Decision deadline for a standard request. |
 
 ### Step 1: Open case and confirm coverage (120 s)
 
@@ -88,6 +108,27 @@ Shaded step = the heaviest step in each case.
 | 1.5 | Criteria Library | Picks the lumbar MRI policy by code. Confirms the version in effect. | 30 | Check |
 
 **Why this long:** every row is a labelled field with a yes or no. Time goes to switching windows and signing in, not thinking. It is a checkbox step.
+
+**Live case, step 1: coverage**
+
+| Where | What she sees | What she double-checks |
+|---|---|---|
+| UM Workbench, header | Case UM-2026-1105-0418. Member M-48213, 41, male. CPT 72148. Diagnoses S39.012D (strain of lower-back muscle, subsequent encounter) and M54.16 (lumbar radiculopathy). Ordering provider Dr. A. Patel, orthopedic sports medicine. Facility Riverbend Imaging, outpatient. Received 2026-11-05, standard, due 2026-11-12. | Today is 2026-11-06, so 6 days remain. The request is not marked expedited. |
+| Eligibility Lookup | Active 2026-01-01 to 2026-12-31, commercial PPO, no other coverage on file. | Provider and facility are both in network, and coverage covers the planned service window. |
+| UM Workbench, benefits panel | Advanced imaging needs prior authorization. | 72148 is on this plan's prior-auth list. |
+| Request form, accident boxes | Employment: no. Auto accident: no. Other accident: no. | Because this is an injury, she makes sure no other payer is primary (workers' comp, auto coverage, a liable third party). A gym lift with no one else involved means none. If any box were yes, she would stop and route to coordination of benefits. |
+| Request form, diagnosis codes | S39.012D and M54.16. | M54.16 is on the policy's covered diagnosis list. S39.012D alone would not be, because a muscle strain is not by itself an MRI indication. |
+| UM Workbench, duplicate search | No earlier 72148 request or approval for this member. | The search covers the same code and any other lumbar MRI code. |
+| Criteria Library | RAD-MRI-LSPINE v2026.1, effective 2026-01-01. | The version is in effect on the received date. |
+
+**She enters**
+
+| Field | Value |
+|---|---|
+| Coverage verified | Yes, 2026-11-06 |
+| Other payer or liability | None |
+| Policy applied | RAD-MRI-LSPINE v2026.1 |
+| Review path | Nurse level, standard |
 
 ### Step 2: Read the documents (480 s)
 
@@ -103,6 +144,27 @@ Shaded step = the heaviest step in each case.
 
 **Why this long:** this is the heavy step. The facts she needs are scattered across three documents in three formats. Nothing is structured, and the fax is the slowest to read. 150 + 120 + 130 seconds is mostly finding a few facts in dense text.
 
+**Live case, step 2: what she pulls out of the packet**
+
+| Fact | Where she finds it | Value |
+|---|---|---|
+| Injury and mechanism | Office note, page 1, history | Deadlift on 2026-08-22, felt a pop in the left low back. Clinically a strain of the left L4-L5 paraspinal muscles, partial tear suspected. |
+| Medication | Office note, page 1 | Naproxen 500 mg twice daily from 2026-08-29 for 3 weeks, then as needed. |
+| Therapy | Office note page 1, PT summary pages 1 and 2 | PT from 2026-09-08 to 2026-11-03, 14 visits, discharged with persistent symptoms. Home exercise program. |
+| New symptoms | Office note, page 1 | Since about 2026-10-14, numbness down the left outer calf to the top of the foot. |
+| Exam | Office note, page 2 | Left straight-leg raise positive at 40 degrees. Reduced light touch over the left L5 area. Left big-toe extension 4/5. Reflexes 2+ and symmetric. Normal gait. Spasm and tenderness over the left L4-L5 paraspinals. |
+| Red-flag questions | Office note, page 2 | Denies bowel or bladder change, saddle numbness, fever and weight loss. No cancer history. |
+| Prior imaging | Office note, page 1 | Lumbar X-ray on 2026-09-02, normal. |
+
+**What she double-checks**
+- **Negations.** "Denies saddle numbness" means the red flag is absent, not present.
+- **Dates agree.** The note says 8 weeks of PT, and the PT summary dates (09-08 to 11-03) give exactly 8 weeks.
+- **Exam against review of systems.** The review of systems says "denies leg weakness", but the exam finds mild big-toe weakness. She treats the dated exam as the stronger evidence and records both.
+- **Copied text.** The exam has specific values (40 degrees, 4/5), not template wording such as "neuro intact", so it reflects this visit.
+- **The stated reason for the scan.** The order says "evaluate for nerve root compression and exclude high-grade muscle tear." She notes that the second reason is not a policy criterion.
+
+**She enters.** Nothing final yet. She types short evidence notes in the case note field, each with a page reference, for use in steps 3 and 4.
+
 ### Step 3: Check the criteria (240 s)
 
 | # | Portal | What she does and sees | Sec | Type |
@@ -116,6 +178,23 @@ Shaded step = the heaviest step in each case.
 
 **Why this long:** the judgment rows are short because the documents were clear. The claims search is long only because of sign-in and loading. A messier note would stretch 3.2 and 3.3.
 
+**Live case, step 3: criteria and claims**
+
+| Criterion | She enters | Evidence cited | Result |
+|---|---|---|---|
+| C1: 6+ weeks of conservative care, or a red flag | 10.6 weeks of conservative care, 2026-08-22 to 2026-11-04. Naproxen from 08-29. PT 14 visits, 09-08 to 11-03. Activity modification. | Office note page 1, PT summary pages 1 and 2, claims | Met |
+| C2: radiculopathy or neurologic deficit | Left L5 radiculopathy. Straight-leg raise positive at 40 degrees, reduced sensation over the L5 area, big-toe extension 4/5. | Office note page 2, exam of 2026-11-04 | Met |
+| C3 exclusion: lumbar MRI in the last 12 months | No lumbar MRI (72148, 72149 or 72158) between 2025-11-06 and 2026-11-06. | Claims Viewer | Not triggered |
+| Red flag | None documented, so C1 is met through duration, not a red flag. | Office note page 2 | None |
+
+**In the Claims Viewer**
+- She enters member M-48213, 2025-11-06 to 2026-11-06, and uses the all-outpatient-services view, not only an MRI code filter.
+- She sees one **plain-film X-ray (CPT 72100)** on 2026-09-02 at an urgent care. She double-checks it is radiography, not an MRI, so it does not trigger the exclusion.
+- She sees **14 physical therapy claims** (CPT 97110 and 97140) from 2026-09-08 to 2026-11-03. That corroborates the PT dates in the fax, which counts for more than a note alone.
+- She sees no 72148, 72149 or 72158.
+
+**The injury-specific judgment.** She does not count the muscle strain as meeting C2. The strain explains how the problem began. C2 rests on the nerve findings in the exam. If the note had documented only the strain, C2 would be unmet.
+
 ### Step 4: Write the rationale (180 s)
 
 | # | Portal | What she does and sees | Sec | Type |
@@ -125,6 +204,22 @@ Shaded step = the heaviest step in each case.
 | 4.3 | UM Workbench | Attaches the criteria checklist. | 25 | Check |
 
 **Why this long:** typing is nearly all of it, and it repeats facts she just read in step 2.
+
+**Live case, step 4: what she enters**
+
+| Field | Value |
+|---|---|
+| Decision | Approve |
+| Basis | Criteria met |
+| Policy | RAD-MRI-LSPINE v2026.1 |
+| Criteria results | C1 Met. C2 Met. C3 exclusion not triggered. |
+| Attachment | Criteria checklist (PDF) |
+
+**Rationale she types** (about 85 words):
+
+> Approve CPT 72148 per RAD-MRI-LSPINE v2026.1. 41M with left L4-L5 paraspinal strain (deadlift, 08/22/2026) and new left L5 radiculopathy. C1 met: 10.6 weeks of conservative care (naproxen from 08/29; PT 09/08 to 11/03, 14 visits, corroborated by claims 97110 and 97140; activity modification). C2 met: ortho note 11/04 documents left SLR positive at 40 degrees, reduced L5 sensation, EHL 4/5. C3 met: no lumbar MRI in 12 months; 09/02/2026 plain films only (72100). No red flags documented. Not work- or accident-related.
+
+**What she double-checks before saving.** Every date and number in the rationale matches the notes she cites. The word "approve" matches the decision field. She does not write a medical opinion on the injury, only what the criteria and documents show.
 
 ### Step 5: Approve and send (60 s)
 
@@ -136,6 +231,17 @@ Shaded step = the heaviest step in each case.
 
 **Why this long:** pure confirmation. Wrong dates cause claim problems later, so she looks twice.
 
+**Live case, step 5: what she enters and confirms**
+
+| Field | Value | What she double-checks |
+|---|---|---|
+| Authorized service | CPT 72148, 1 unit | Matches the request exactly. A different code or unit count would be rejected at billing. |
+| Facility | Riverbend Imaging, outpatient, in network | Same facility as the request. |
+| Valid dates | 2026-11-06 through 2027-02-03 (90 days) | The window starts today and the count is right. |
+| Authorization number | Assigned by the system (for example PA-2611-0418) | She copies it into her case note. |
+| Notifications | Provider (fax or portal) and member (mail or app) | Both are ticked. The member letter says approval is not a guarantee of payment. |
+| Deadline clock | Closed on 2026-11-06, 6 days before 2026-11-12 | The case shows as completed on time. |
+
 ### Case A totals: 1,080 s (18 min, $17.55 at $0.975 per minute)
 
 | Type | Seconds | Share |
@@ -145,6 +251,26 @@ Shaded step = the heaviest step in each case.
 | Judge | 145 | 13.4% |
 | Write | 140 | 13.0% |
 | Wait | 15 | 1.4% |
+
+### What the muscle injury changes, and what-ifs
+
+**Checks an injury adds, compared with ordinary back pain**
+
+| Check | Why it matters for an injury |
+|---|---|
+| Accident and liability boxes | Another payer may be primary, such as workers' comp, auto coverage or a liable third party. |
+| Subsequent-encounter diagnosis code | Shows ongoing care for an earlier injury. A strain code alone does not meet the MRI criteria. |
+| Strain versus nerve findings | The strain is the cause. The criterion rests on radiculopathy or a deficit, and the nurse must not let one stand in for the other. |
+| Plain-film X-ray in claims | Not an exclusion. Only an earlier MRI is. |
+| Where the clock starts | Conservative care counts from the injury, not from the first PT visit. Claims for PT corroborate the dates. |
+
+**Variations on the same patient** (typical handling, which varies by plan)
+
+| Variation | What changes | Likely outcome |
+|---|---|---|
+| Same strain, 3 weeks old, no leg symptoms | C1 unmet (3 weeks, no red flag) and C2 unmet. | The nurse cannot approve. She refers it to a physician reviewer, who decides. Denials are made only by a physician. |
+| Strain plus saddle numbness and urinary retention | A red flag is present, so C1 is met without waiting 6 weeks. Neuro findings meet C2. | Fast approval, with expedited handling for a possible emergency. |
+| Strain, a lumbar MRI 5 months ago, and new leg symptoms | The exclusion applies unless new symptoms are documented. | She refers it so a reviewer can decide whether the new symptoms justify a repeat scan. |
 
 ## 3. Case B: GLP-1 for weight management
 
