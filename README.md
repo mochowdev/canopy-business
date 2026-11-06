@@ -39,7 +39,7 @@ Project Canopy is the working name. The product is the **Prior Authorization Cop
 
 | Where to go | What it holds |
 |---|---|
-| [`ROADMAP.md`](ROADMAP.md) | The ticket list for continuing the project, ordered low to high complexity |
+| [`ROADMAP.md`](ROADMAP.md) | The stories that check what the business is asking for and which part of prior auth Canopy resolves |
 | [`cases/`](cases/README.md) | Worked savings scenarios and the evidence registry |
 | [`REVIEW_SUMMARY.md`](REVIEW_SUMMARY.md) | One-page visual summary |
 | [`mental-model/`](mental-model/README.md) | Condensed visuals of what has been understood so far |
