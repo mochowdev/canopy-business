@@ -8,10 +8,11 @@
 - [Our assumptions (grade C)](#our-assumptions-grade-c)
   - [Insurer side (Case 001)](#insurer-side-case-001)
   - [Provider side (Case 002)](#provider-side-case-002)
+  - [Volume (manual flows)](#volume-manual-flows)
 - [Changelog](#changelog)
 <!-- contents:end -->
 
-Every number used in a case is listed here first. Last reviewed: 2026-11-04.
+Every number used in a case is listed here first. Last reviewed: 2026-11-07.
 
 Grades: **A** = primary source opened and read. **B** = credible secondary report, primary not opened. **C** = our assumption.
 
@@ -26,6 +27,8 @@ Grades: **A** = primary source opened and read. **B** = credible secondary repor
 | S-05 | Physician prior-auth workload | About 40 requests per week and about 13 hours per week (physician plus staff) | Survey reported May 2026 | B | AMA survey as reported by the [California Medical Association](https://cmadocs.org/newsroom/news/view/ArticleId/51200/AMA-survey-highlights-ongoing-prior-auth-burdens-as-CMA-continues-reform-efforts); earlier AMA surveys: 43 per week and 12 hours (2023), 45 and 14 hours (2022) | Hour counts differ between survey years. Confirm who is included (physician only or staff too). |
 | S-06 | Time and cost per prior-auth transaction | Manual 20 min vs electronic 8 min; manual cost $13.40 (2020 data), $10.92 (2019 data) | 2019-2020 | B | CAQH Index via [CAQH CORE slides](https://www.caqh.org/sites/default/files/core/CAQH%20CORE%20CCF-PAN%20PA%20Pilot%20Case%20Study%20Webinar%20Part%202%20Slides%20.pdf) and [TechTarget](https://www.techtarget.com/revcyclemanagement/news/366602037/Prior-Authorization-Costs-Rise-as-Electronic-Adoption-Remains-Low) | Dated. Find the latest CAQH Index edition. |
 | S-07 | Registered nurse median hourly wage | About $45.00 ($93,600 per year) | May 2024 | B, conflicting | BLS OEWS, SOC 29-1141 ([primary page](https://www.bls.gov/oes/current/oes291141.htm), not opened). Seen on third-party pages; some show $42.79 to $45.00 | Verify on bls.gov before use. |
+| S-08 | UnitedHealthcare's own cuts to prior-auth volume | Removed nearly 20% of its prior-auth volume in 2023, about 10% more in 2025, and plans to remove 30% of current volume in fall 2026 | 2023-2026 | B | [UnitedHealthcare newsroom](https://www.uhc.com/news-articles/newsroom/commitment-to-easing-prior-authorization), [Axios, 2023](https://www.axios.com/2023/08/10/unitedhealth-prior-authorization-roll-back) | Seen in search summaries, page not opened. The base for each percentage is not stated. |
+| S-09 | UnitedHealthcare state-level prior-auth counts | Illinois: 136,111 medical + 42,204 pharmacy requests. Colorado: 76,681 requests. | 2024 | B | UHC state reports: [Illinois](https://ams-prod.uhcprovider.com/content/dam/provider/docs/public/prior-auth/utilization/IL-Prior-Auth-Statistics-2024.pdf), [Colorado](https://ams-gateway.uhcprovider.com/content/dam/provider/docs/public/prior-auth/utilization/2024-CO-Prior-Auth-Stats.pdf) | Seen in search summaries, PDFs not opened. Scope is probably limited to plans regulated by that state, not all UnitedHealthcare members there. |
 
 Cross-check: S-05 implies 13 hours x 60 / 40 requests = **19.5 minutes per request**, close to the 20-minute manual figure in S-06.
 
@@ -52,6 +55,13 @@ Loaded cost per minute = $45.00 per hour (S-07) x 1.3 / 60 = **$0.975**.
 | A-06 | Office minutes saved per avoided loop | 5 | 10 | 15 | One phone call or resubmission costs several minutes of staff time. | Practice time study |
 | A-07 | Loaded cost of office staff time per minute | $0.50 | $0.50 | $0.50 | About $30 per hour loaded. Placeholder. | BLS wage data for medical administrative staff |
 
+### Volume (manual flows)
+
+| ID | Assumption | Low | Base | High | Reasoning | What would replace it |
+|---|---|---|---|---|---|---|
+| A-08 | UnitedHealthcare's share of Medicare Advantage prior-auth requests | 25% | 29% | 33% | Roughly its share of Medicare Advantage enrollment. Requests per member differ by insurer, so this is a proxy. | KFF's insurer-level table in the primary report, or internal counts |
+
 ## Changelog
 
 - 2026-11-04: Initial registry. All external figures are grade B because primary sources could not be reached from the research environment.
+- 2026-11-07: Added S-08 (UnitedHealthcare prior-auth cuts), S-09 (state-level counts) and A-08 (UnitedHealthcare share of Medicare Advantage requests) for the case-spectrum manual flow.
